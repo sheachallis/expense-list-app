@@ -53,7 +53,7 @@ const ExpenseForm = ({ onSubmit }: Props) => {
       </div>
       <div className="mb-3">
         <label htmlFor="amount" className="form-label">
-          Amount
+          Cost
         </label>
         <input
           {...register("amount", { valueAsNumber: true })}
